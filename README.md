@@ -1,4 +1,6 @@
-# ROUTE-RISK-PROFILING-INSIGHTS-AND-STRATEGIC-IMPLICATIONS
+# ROUTE-RISK-PROFILING-INSIGHTS-AND-STRATEGIC-IMPLICATIONS  
+*This is a personal portfolio project for educational and demonstration purposes only. This project is not affiliated to, or endorsed by the National Rail or any UK rail operator*  
+
 This repository contains a Python project developed to segment the 65 travel routes of the UK National Rail according to their likelihood of service disruption  
 
 ## PROJECT OVERVIEW 
@@ -31,7 +33,12 @@ High Risk Route |  5 |  88 |  1.80 |  58.12
 Moderate Risk Route |   48    |    3.69    |    4.69    |17.08
 Reliable But Expensive Route  |   12   |    4.00    |    2.17    |    84.11  
 
-See the Python [notebook](route_risk_profilng.ipynb) for a detailed step-by-step walkthrough of the clustering methodology and route analysis process
+See the Python [notebook](route_risk_profilng.ipynb) for a step-by-step walkthrough of the clustering methodology and route analysis process
+## RECOMMENDATION 
+For the Notebook, you need:  
+* Python 3.7+ iwth Jupyter Notebook, JupyterLab, or Google Colab
+* Required libraries: pandas, scikit-learn, matplotlib, seaborn 
+* The route metrics dataset (file is attached)
 
 ## KEY INSIGHTS AND RECOMMENDATIONS
 * The following routes are high risk due to their 88%  average delay rates, despite their low cancellation percentages. Targeted operational interventions are recommended:
