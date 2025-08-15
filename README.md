@@ -31,7 +31,7 @@ High Risk Route |  5 |  88 |  1.80 |  58.12
 Moderate Risk Route |   48    |    3.69    |    4.69    |17.08
 Reliable But Expensive Route  |   12   |    4.00    |    2.17    |    84.11  
 
-See the notebook for a detailed step-by-step walkthrough of the clustering methodology and route analysis process
+See the Python [notebook](route_risk_profilng.ipynb) for a detailed step-by-step walkthrough of the clustering methodology and route analysis process
 
 ## KEY INSIGHTS AND RECOMMENDATIONS
 * The following routes are high risk due to their 88%  average delay rates, despite their low cancellation percentages. Targeted operational interventions are recommended:
